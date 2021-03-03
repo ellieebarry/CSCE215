@@ -1,0 +1,26 @@
+# Eleanor Barry
+# CSCE215.853
+# Assignment 3
+#############
+
+
+# Question 1:
+cut -d "," -f 14 ~/215/assignment3/polls.csv
+
+# Question 2:
+cut -d "," -f 14 ~/215/assignment3/polls.csv | uniq | wc -l
+
+# Question 3:
+cat /class/csce215/Words | tr [A-Z] [a-z]
+
+# Question 4:
+cat /class/csce215/Words | sed '0~2d'
+
+# Question 5:
+grep -o -w "[A-Za-z]\{6\}" /class/csce215/Words | wc -w
+
+# Question 6:
+cat ~/215/assignment3/words | grep -o -w -e "b.\{5\}" -e "d.\{5\}" | wc -w
+
+# Question 7:
+cat ~/215/assignment3/words | grep -o '[^aeiou]\{6\}'
