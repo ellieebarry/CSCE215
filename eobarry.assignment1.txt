@@ -1,0 +1,52 @@
+# Eleanor Barry 
+# CSCE215.853
+# Assignment 1
+#############
+ 
+ 
+/acct/eobarry/215
+├── assignment1
+│   └── eobarry.tree.txt
+├── assignment2
+├── assignment3
+├── assignment4
+└── finalProject
+
+5 directories, 1 file
+1.) Eleanor Barry
+2.) Eobarry@email.sc.edu
+3.) My phone number is (508) 409-1599
+4.) I am a second semester freshman computer science major who is enrolled in this class and I am not transferring from another institution
+5.) I have 3 years of programming experience and know Java, Javascript, and HTML
+6.) I took this class the first half of this semester but I do not know a lot about Unix/Linux
+7.) vim
+8.) whoami.info.txt
+
+Script started on Mon 23 Mar 2020 01:50:02 PM EDT
+whoami
+printf "$eobarry\n"
+echo $eobarry
+whoami
+echo $cocsce-l1d43-01
+echo $(date +"%m-%d-%Y")
+echo $(date +"%r")
+tree ~/215 > ~/215/assignment1/`whoami`.tree.txt
+exit]0;eobarry@cocsce-l1d43-01: ~eobarry@cocsce-l1d43-01:~$ whoami
+eobarry
+]0;eobarry@cocsce-l1d43-01: ~eobarry@cocsce-l1d43-01:~$ printf "$eobarry\n"
+
+]0;eobarry@cocsce-l1d43-01: ~eobarry@cocsce-l1d43-01:~$ echo $eobarry
+
+]0;eobarry@cocsce-l1d43-01: ~eobarry@cocsce-l1d43-01:~$ whoami
+eobarry
+]0;eobarry@cocsce-l1d43-01: ~eobarry@cocsce-l1d43-01:~$ echo $cocsce-l1d43-01
+-l1d43-01
+]0;eobarry@cocsce-l1d43-01: ~eobarry@cocsce-l1d43-01:~$ echo $(date +"%m-%d-%Y")
+03-23-2020
+]0;eobarry@cocsce-l1d43-01: ~eobarry@cocsce-l1d43-01:~$ echo $(date +"%r")
+01:50:03 PM
+]0;eobarry@cocsce-l1d43-01: ~eobarry@cocsce-l1d43-01:~$ tree ~/215 > ~/215/assignment1/`whoami`.tree.txt
+]0;eobarry@cocsce-l1d43-01: ~eobarry@cocsce-l1d43-01:~$ exit
+exit
+
+Script done on Mon 23 Mar 2020 01:50:05 PM EDT
